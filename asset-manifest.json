@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_React/static/css/main.97f0fdae.css",
-    "main.js": "/portfolio_React/static/js/main.a91c86d3.js",
+    "main.css": "/portfolio_React/static/css/main.9e6a0b64.css",
+    "main.js": "/portfolio_React/static/js/main.0507bd1d.js",
     "static/media/back.jpg": "/portfolio_React/static/media/back.3fd8efdd89d3dee0d50c.jpg",
     "static/media/angular_1.png": "/portfolio_React/static/media/angular_1.1861510d99882acc89f9.png",
     "static/media/mdb.png": "/portfolio_React/static/media/mdb.954dbccaa8f4c6439db0.png",
     "static/media/Berkley-Bryan-Resume.pdf": "/portfolio_React/static/media/Berkley-Bryan-Resume.022d495babaa85d96177.pdf",
     "index.html": "/portfolio_React/index.html",
-    "main.97f0fdae.css.map": "/portfolio_React/static/css/main.97f0fdae.css.map",
-    "main.a91c86d3.js.map": "/portfolio_React/static/js/main.a91c86d3.js.map"
+    "main.9e6a0b64.css.map": "/portfolio_React/static/css/main.9e6a0b64.css.map",
+    "main.0507bd1d.js.map": "/portfolio_React/static/js/main.0507bd1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f0fdae.css",
-    "static/js/main.a91c86d3.js"
+    "static/css/main.9e6a0b64.css",
+    "static/js/main.0507bd1d.js"
   ]
 }
