@@ -37,7 +37,7 @@ const Home = () => {
                 />
               </div>
             </h2>
-            <p className="text-gray-500 py-4 max-w-md">
+            <p className="text-gray-300 py-4 max-w-md">
               I love working with technology and exploring new ways to build
               cool stuff. When I'm not in front of my computer, you can find me
               on a beach in Oahu.
