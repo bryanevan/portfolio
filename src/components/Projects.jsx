@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#000c12]"
+      className="w-full md:h-screen text-gray-300 p-2 bg-[#000c12]"
     >
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-auto h-full">
         <Zoom cascade>
@@ -40,6 +40,11 @@ const Projects = () => {
                   <a href="https://github.com/bryanevan/myCinema-client">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Code
+                    </button>
+                  </a>
+                  <a href="https://www.google.com">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
+                      Case Study
                     </button>
                   </a>
                 </div>
