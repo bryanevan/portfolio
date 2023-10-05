@@ -25,7 +25,7 @@ const About = () => {
                 <p>
                   Aloha,
                   <br></br>
-                  I'm Berkley, a full-stack developer based in Honolulu.
+                  I'm Berkley, a Full-Stack Developer based in Honolulu.
                 </p>
               </div>
               <div className="">
@@ -43,7 +43,7 @@ const About = () => {
                   members of a community of technologists, each one of us adding
                   a bit of value in an endless pursuit of efficacy and success.
                   Mahalo nui loa for reading, and please reach out to me to
-                  collaborate.
+                  collaborate!
                 </p>
               </div>
             </div>
