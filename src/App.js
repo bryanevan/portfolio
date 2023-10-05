@@ -3,29 +3,19 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+// import Test from "./components/Test";
 import Scroll from "./components/Scroll";
-import Case from "./components/Case";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/case" element={<Case />} />
-      </Routes>
+    <div>
       <Navbar />
       <Scroll />
       <Home />
       <Projects />
       <About />
       <Contact />
-    </Router>
+    </div>
   );
-}
+};
 export default App;
