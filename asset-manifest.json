@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9e6a0b64.css",
-    "main.js": "/portfolio/static/js/main.0eb6a8be.js",
+    "main.css": "/portfolio/static/css/main.6890b9e0.css",
+    "main.js": "/portfolio/static/js/main.c98f55a2.js",
     "static/media/back.jpg": "/portfolio/static/media/back.3fd8efdd89d3dee0d50c.jpg",
     "static/media/angular_1.png": "/portfolio/static/media/angular_1.1861510d99882acc89f9.png",
+    "static/media/comp2.png": "/portfolio/static/media/comp2.093eed95e7a9be357400.png",
+    "static/media/comp.png": "/portfolio/static/media/comp.b9c1d8df412f1c9aa2b4.png",
     "static/media/mdb.png": "/portfolio/static/media/mdb.954dbccaa8f4c6439db0.png",
     "static/media/Berkley-Bryan-Resume.pdf": "/portfolio/static/media/Berkley-Bryan-Resume.022d495babaa85d96177.pdf",
     "index.html": "/portfolio/index.html",
-    "main.9e6a0b64.css.map": "/portfolio/static/css/main.9e6a0b64.css.map",
-    "main.0eb6a8be.js.map": "/portfolio/static/js/main.0eb6a8be.js.map"
+    "main.6890b9e0.css.map": "/portfolio/static/css/main.6890b9e0.css.map",
+    "main.c98f55a2.js.map": "/portfolio/static/js/main.c98f55a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e6a0b64.css",
-    "static/js/main.0eb6a8be.js"
+    "static/css/main.6890b9e0.css",
+    "static/js/main.c98f55a2.js"
   ]
 }
