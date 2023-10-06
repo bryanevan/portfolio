@@ -1,70 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@layer base { 
-    body {
-        @apply font-[Raleway];
-    }
-    li {
-        @apply px-4;
-        @apply cursor-pointer
-    }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        #000000cc,
-        #3e143d   
-    )!important;
+  background-image: linear-gradient(to right, #000000cc, #3e143d) !important;
 }
 
-.top-to-btm{
-    position: relative;
+.top-to-btm {
+  position: relative;
+}
+.icon-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  background-color: #000000;
+  border: 3px solid #e30bf2;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #e30bf2;
+  border: 2px solid #551b54;
+}
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
   }
-  .icon-position{
-    position: fixed;
-    bottom: 40px;
-    right: 25px;
-    z-index: 20;
+  25% {
+    transform: translateY(20px);
   }
-  .icon-style{
-    background-color: #000000;
-    border: 3px solid #e30bf2;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    color: #fff;
-    cursor: pointer;
-    animation: movebtn 3s ease-in-out infinite;
-    transition: all .5s ease-in-out;
+  50% {
+    transform: translateY(0px);
   }
-  .icon-style:hover{
-    animation: none;
-    background: #fff;
-    color: #e30bf2;
-    border: 2px solid #551B54;
+  75% {
+    transform: translateY(-20px);
   }
-  @keyframes movebtn {
-    0%{
-      transform: translateY(0px);
-    }
-    25%{
-      transform: translateY(20px);
-    }
-    50%{
-      transform: translateY(0px);
-    }
-    75%{
-      transform: translateY(-20px);
-    }
-    100%{
-      transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
   }
+}
+
+.hidden-component {
+  display: none;
+}

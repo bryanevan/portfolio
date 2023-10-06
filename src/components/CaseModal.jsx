@@ -9,13 +9,14 @@ const CaseModal = ({ closeModal, children }) => {
       onHide={() => closeModal()}
     >
       <Modal.Header
-        className="bg-[#000c12] ml-4 pt-6 text-2xl text-gray-300"
+        className="bg-[#000c12] ml-4 text-xl text-white"
         closeButton
+        onClick={() => closeModal()}
       >
         <Modal.Title>
           Case Study: myCinema
           <br></br>
-          Press Esc to Close
+          Press Esc or click here to close window
         </Modal.Title>
       </Modal.Header>
       <Modal.Body style={{ maxHeight: "80vh", overflowY: "auto" }}>
@@ -23,11 +24,11 @@ const CaseModal = ({ closeModal, children }) => {
       </Modal.Body>
       <Modal.Footer>
         <Button
-          className="bg-[#000c12] ml-4 text-xl text-gray-300"
+          className="bg-[#000c12] ml-4 text-xl text-white"
           variant="secondary"
           onClick={() => closeModal()}
         >
-          Press Esc to Close Case Study
+          Click here to close window
         </Button>
       </Modal.Footer>
     </Modal>

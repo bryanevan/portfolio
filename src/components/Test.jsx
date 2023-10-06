@@ -6,6 +6,7 @@ import ang from "../assets/angular_1.png";
 import CaseModal from "./CaseModal";
 import Case from "./Case";
 import Navbar from "./Navbar";
+import Scroll from "./Scroll";
 
 const Test = () => {
   const [isCaseModalOpen, setIsCaseModalOpen] = useState(false);
@@ -23,8 +24,10 @@ const Test = () => {
       name="projects"
       className="w-full md:h-screen text-gray-300 p-2 bg-[#000c12]"
     >
-      {/* Conditional rendering of Navbar */}
-      {!isCaseModalOpen && <Navbar />}
+      {/* Conditional rendering of Navbar and Scroll based on modal state */}
+      <Navbar className={isCaseModalOpen ? "hidden" : ""} />
+      <Scroll className={isCaseModalOpen ? "hidden" : ""} />
+
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-auto h-full">
         <Zoom cascade>
           <div className="pb-2 w-full flex justify-center items-center flex-col">

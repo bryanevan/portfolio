@@ -3,20 +3,24 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Zoom from "react-reveal/Zoom";
 import ang from "../assets/angular_1.png";
+import mdb from "../assets/mdb.png";
 import CaseModal from "./CaseModal";
 import Case from "./Case";
 import Navbar from "./Navbar";
-import mdb from "../assets/mdb.png";
+import Scroll from "./Scroll";
 
 const Projects = () => {
   const [isCaseModalOpen, setIsCaseModalOpen] = useState(false);
+  const [showComponents, setShowComponents] = useState(true);
 
   const openCaseModal = () => {
     setIsCaseModalOpen(true);
+    setShowComponents(false);
   };
 
   const closeCaseModal = () => {
     setIsCaseModalOpen(false);
+    setShowComponents(true);
   };
 
   return (
