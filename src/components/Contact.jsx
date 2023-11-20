@@ -14,10 +14,9 @@ const Contact = () => {
             </p>
             <div className="my-4 flex flex-col">
               <p className="bg-slate-800 flex justify-center text-center rounded-lg shadow-lg shadow-[#4d004d] p-3 mx-12">
-                I'm looking to join a development team as a Full-Stack or
-                Front-End developer right away, and I'm open to collaborations
-                on projects and community engagement, so please feel free reach
-                out to me in any form you prefer and let's get to building!
+                I'm open to collaborations on projects and community engagement.
+                Please feel free reach out to me in any form you prefer and
+                let's get to building!
               </p>
             </div>
           </div>

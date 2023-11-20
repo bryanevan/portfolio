@@ -7,7 +7,6 @@ import mdb from "../assets/mdb.png";
 import CaseModal from "./CaseModal";
 import Case from "./Case";
 import Navbar from "./Navbar";
-import Scroll from "./Scroll";
 
 const Projects = () => {
   const [isCaseModalOpen, setIsCaseModalOpen] = useState(false);
@@ -33,12 +32,11 @@ const Projects = () => {
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-auto h-full">
         <Zoom cascade>
           <div className="pb-2 w-full flex justify-center items-center flex-col">
-            <p className="text-6xl font-bold inline border-b-4 text-gray-300 border-fuchsia-500">
+            <h1 className="text-6xl font-bold inline border-b-4 text-gray-300 border-fuchsia-500">
               Projects
-            </p>
-            <p className="py-6 text-2xl">Check out what I've built</p>
+            </h1>
           </div>
-          <div className="pb-4 text-2xl">Client-side</div>
+          <h2 className="pb-4 text-3xl">Client-side</h2>
           {/* Container */}
           <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
             {/* myCinema */}
@@ -104,9 +102,9 @@ const Projects = () => {
                 several views and enhanced UI with Angular Material
               </div>
             </div>
-            <div className="mr-2 text-2xl col-span-2 justify-self-end">
+            <h2 className="mr-2 text-3xl col-span-2 justify-self-end">
               Server-side
-            </div>
+            </h2>
             <div className="text-xl text-gray-300 flex-auto justify-self-stretch self-center">
               Server-side component for myFlix and myCinema film catalog
               applications
@@ -133,7 +131,7 @@ const Projects = () => {
               to="about"
               smooth
               duration={500}
-              className="shadow-2xl shadow-[#4d004d] border border-sky-950 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md cursor-pointer"
+              className="shadow-2xl shadow-[#4d004d] border border-slate-700 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md cursor-pointer"
             >
               About
               <span className="group-hover:rotate-90 duration-300">

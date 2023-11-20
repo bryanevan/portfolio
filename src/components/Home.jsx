@@ -13,7 +13,7 @@ const Home = () => {
     >
       <div className="h-screen w-full bg-slate-900/40 bg-center bg-cover bg-origin-border">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center h-full">
+          <div className="flex flex-col justify-center h-full w-11/12">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
               <div>
                 I'm A<br></br>
@@ -38,16 +38,15 @@ const Home = () => {
               </div>
             </h2>
             <p className="text-gray-300 py-4 max-w-md">
-              I love working with technology and exploring new ways to build
-              cool stuff. When I'm not in front of my computer, you can find me
-              on a beach in Oahu.
+              Working with technology is my passion and purpose. Together we can
+              impact our world with thoughtful consideration and awesome tech.
             </p>
             <div>
               <Link
                 to="projects"
                 smooth
                 duration={500}
-                className="shadow-2xl shadow-[#4d004d] border border-sky-950 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer"
+                className="shadow-2xl shadow-[#4d004d] border border-slate-700 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer"
               >
                 Projects
                 <span className="group-hover:rotate-90 duration-300">

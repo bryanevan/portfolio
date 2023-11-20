@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className="fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#000c12] text-gray-300">
       <div>
-        <h1 className="font-thin text-4xl italic font-serif">Berkley</h1>
+        <h1 className="text-4xl">Berkley</h1>
       </div>
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
