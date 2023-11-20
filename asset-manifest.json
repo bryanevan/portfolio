@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e902ed28.css",
-    "main.js": "/static/js/main.e29dec55.js",
+    "main.css": "/static/css/main.9b140997.css",
+    "main.js": "/static/js/main.9c91eef7.js",
     "static/media/back.jpg": "/static/media/back.3fd8efdd89d3dee0d50c.jpg",
     "static/media/angular_1.png": "/static/media/angular_1.1861510d99882acc89f9.png",
     "static/media/comp2.png": "/static/media/comp2.093eed95e7a9be357400.png",
@@ -9,11 +9,11 @@
     "static/media/mdb.png": "/static/media/mdb.954dbccaa8f4c6439db0.png",
     "static/media/Berkley-Bryan-Resume.pdf": "/static/media/Berkley-Bryan-Resume.022d495babaa85d96177.pdf",
     "index.html": "/index.html",
-    "main.e902ed28.css.map": "/static/css/main.e902ed28.css.map",
-    "main.e29dec55.js.map": "/static/js/main.e29dec55.js.map"
+    "main.9b140997.css.map": "/static/css/main.9b140997.css.map",
+    "main.9c91eef7.js.map": "/static/js/main.9c91eef7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e902ed28.css",
-    "static/js/main.e29dec55.js"
+    "static/css/main.9b140997.css",
+    "static/js/main.9c91eef7.js"
   ]
 }
