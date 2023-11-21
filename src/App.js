@@ -5,10 +5,11 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 // import Test from "./components/Test";
 import Scroll from "./components/Scroll";
+import withHOC from "./components/withHOC";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Scroll />
       <Home />
@@ -19,4 +20,4 @@ const App = () => {
     </div>
   );
 };
-export default App;
+export default withHOC(App);
