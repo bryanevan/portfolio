@@ -131,7 +131,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={resume}
-              download="Berkley_Bryan__resume"
+              download="Berkley_Bryan_resume"
               target="_blank"
               rel="noreferrer"
             >

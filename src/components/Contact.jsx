@@ -8,11 +8,11 @@ const Contact = () => {
       <Zoom cascade>
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-          <div className=" w-full flex justify-center items-center flex-col my-5">
-            <p className="text-6xl font-bold inline border-b-4 border-fuchsia-500 text-center ">
+          <div className="flex flex-col items-center justify-center w-full my-5 ">
+            <p className="inline text-6xl font-bold text-center border-b-4 border-fuchsia-500 ">
               Contact
             </p>
-            <div className="my-4 flex flex-col">
+            <div className="flex flex-col my-4">
               <p className="bg-slate-800 flex justify-center text-center rounded-lg shadow-lg shadow-[#4d004d] p-3 mx-12">
                 I'm open to collaborations on projects and community engagement.
                 Please feel free reach out to me in any form you prefer and
@@ -20,7 +20,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-2 gap-4 text-center">
+          <div className="grid w-full grid-cols-2 gap-4 text-center sm:grid-cols-2">
             {/* Phone */}
             <button className="bg-slate-800 h-32 rounded-lg shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <a
@@ -29,10 +29,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <p className="text-4xl border-b-2 border-fuchsia-500 text-gray-300">
+                <p className="text-4xl text-gray-300 border-b-2 border-fuchsia-500">
                   Phone
                 </p>
-                <p className="text-2xl text-gray-300 py-2">(+1) 662 200 9587</p>
+                <p className="py-2 text-2xl text-gray-300">(+1) 786 440 6080</p>
               </a>
             </button>
             {/* Email */}
@@ -43,10 +43,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <p className="text-4xl border-b-2 border-fuchsia-500 text-gray-300">
+                <p className="text-4xl text-gray-300 border-b-2 border-fuchsia-500">
                   Email
                 </p>
-                <p className="break-words text-2xl text-gray-300 py-2">
+                <p className="py-2 text-2xl text-gray-300 break-words">
                   dev [at] berkley [dot] pro
                 </p>
               </a>
@@ -59,10 +59,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <p className="text-4xl border-b-2 border-fuchsia-500 text-gray-300">
+                <p className="text-4xl text-gray-300 border-b-2 border-fuchsia-500">
                   LinkedIn
                 </p>
-                <p className="text-2xl text-gray-300 py-2">
+                <p className="py-2 text-2xl text-gray-300">
                   Click to Open My Profile!
                 </p>
               </a>
@@ -76,10 +76,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <p className="text-4xl border-b-2 border-fuchsia-500 text-gray-300">
+                <p className="text-4xl text-gray-300 border-b-2 border-fuchsia-500">
                   Resume
                 </p>
-                <p className="text-2xl text-gray-300 py-2">
+                <p className="py-2 text-2xl text-gray-300">
                   Click to Download!
                 </p>
               </a>
