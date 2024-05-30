@@ -44,7 +44,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="z-10 md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* Mobile menu */}
@@ -89,7 +89,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="https://www.linkedin.com/in/bryan-berkley/"
               target="_blank"
               rel="noreferrer"
@@ -99,7 +99,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="https://github.com/bryanevan"
               target="_blank"
               rel="noreferrer"
@@ -109,7 +109,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="mailto:dev@berkley.pro"
               target="_blank"
               rel="noreferrer"
@@ -119,7 +119,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#050505]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href="https://medium.com/@berkley_"
               target="_blank"
               rel="noreferrer"
@@ -129,13 +129,13 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
               href={resume}
-              download="Berkley_Bryan_resume"
+              download="Berkley_Bryan_Resume"
               target="_blank"
               rel="noreferrer"
             >
-              Resumé <BsFillPersonLinesFill size={30} />
+              Résumé <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
