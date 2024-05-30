@@ -72,7 +72,7 @@ const Contact = () => {
               <a
                 className="flex grid items-center w-full text-gray-300"
                 href={resume}
-                download="Berkley_Bryan__resume"
+                download="Berkley_Bryan_Resume"
                 target="_blank"
                 rel="noreferrer"
               >
